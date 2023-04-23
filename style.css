@@ -37,7 +37,7 @@
 
 .list__task-text,
 .section__input,
-.input_text {
+.input__text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -88,7 +88,7 @@
   text-transform: uppercase;
 }
 
-.input_text,
+.input__text,
 .section__input {
   margin: 0;
   font-size: 18px;
@@ -128,7 +128,7 @@
   align-items: center;
 }
 
-.input_checkbox {
+.input__checkbox {
   margin: 0 10px;
 }
 
@@ -166,7 +166,7 @@
   display: none;
 }
 
-.edit-mode .input_text {
+.edit-mode .input__text {
   display: inline-block;
   width: 224px;
 }
